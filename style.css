@@ -1,0 +1,116 @@
+        body {
+            background-color: skyblue;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .gamecontainer {
+            display: flex;
+            justify-content: center;
+        }
+
+        h2 {
+            text-align: center;
+            color: blue;
+        }
+
+        h1 {
+            background-color: blue;
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 10vw);
+            grid-template-rows: repeat(3, 10vw);
+        }
+
+        .boxtext {
+            color: rgb(52, 4, 97);
+        }
+
+        .box {
+            display: flex;
+            background-color: rgb(24, 207, 240);
+            justify-content: center;
+            align-items: center;
+            border: 2px solid rgb(101, 103, 211);
+            font-size: 8vw;
+            cursor: pointer;
+        }
+
+        .box:hover {
+            background-color: rgb(73, 73, 143);
+        }
+
+        .br-0 {
+            border-right: 0;
+        }
+
+        .bl-0 {
+            border-left: 0;
+        }
+
+        .bt-0 {
+            border-top: 0;
+        }
+
+        .bb-0 {
+            border-bottom: 0;
+        }
+
+        .gameinfo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            padding: 0 20px;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .gi {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            color: blue;
+        }
+
+        .restart {
+            border: none;
+            color: rgb(97, 4, 97);
+            background-color: rgb(101, 103, 211);
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .restart:hover {
+            background-color: rgb(62, 62, 158);
+            color: white;
+        }
+
+        .imgbox {
+            margin-top: 15px;
+        }
+
+        .imgbox img {
+            padding-left: 20px;
+            width: 300px;
+            max-width: 100%;
+            display: none;
+        }
